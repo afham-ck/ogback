@@ -40,12 +40,8 @@ INSTALLED_APPS = [
     
     
 ]
-# AUTH_USER_MODEL = 'AbstractBaseUser.User'
-# AUTH_USER_MODEL = 'AbstractUser.User'
 
-# AUTH_USER_MODEL = 'authuser.User'
 
-AUTH_USER_MODEL = 'myapp.CustomUser'
 
 
 
@@ -132,3 +128,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
